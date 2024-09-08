@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AcademicSocialNetwork.Domain\AcademicSocialNetwork.Domain.csproj" />
+    <ProjectReference Include="..\AcademicSocialNetwork.Infra\AcademicSocialNetwork.Infra.csproj" />
+  </ItemGroup>
+
 </Project>
